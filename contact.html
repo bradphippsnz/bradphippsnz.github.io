@@ -1,39 +1,47 @@
+        <!-- Declaring HTML5 -->
 <!doctype html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Delicious kai in the Bay of Islands">
-    <meta name="keywords" content="Haukai Restaurant, food, kai, Bay of Islands, New Zealand">
+    <meta name="description" content="How to contact us, find us on a map or view our open hours for the Haukai Restaurant">
+    <meta name="keywords" content="Haukai Restaurant, food, kai, Bay of Islands, New Zealand, contact us, find us">
+	    <!-- Web Font Information -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet"> 
 	<title>Haukai Restaurant | Contact</title>
+		<!-- CSS Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+        <!-- Header Information -->
 <header>
-<section class="top-nav">
-    <div>
-        <p>THE HAUKAI RESTAURANT</p>
-    </div>
-    <input id="menu-toggle" type="checkbox" />
-    <label class="menu-button-container" for="menu-toggle">
-    <div class="menu-button"></div>
-  </label>
-    <ul class="menu">
-        <li><a href="index.html" title="Home Page">Home</a></li>
-        <li><a href="./reservations.html" title="Reservations">Reservations</a></li>
-        <li><a href="./menu.html" title="Menu Page">Menu</a></li>
-        <li class="current"><a href="./contact.html" title="Contact Us">Contact Us</a></li>
-    </ul>
-  </section>
-  </header>
+	<section class="top-nav">
+		<div>
+		<p>THE HAUKAI RESTAURANT</p>
+		</div>
+		<!-- Top Nav Menu -->
+		<input id="menu-toggle" type="checkbox">
+		<label class="menu-button-container" for="menu-toggle">
+		<div class="menu-button"></div>
+	    </label>
+		<ul class="menu">
+			<!-- class current indicates what page the user is on -->
+			<li><a href="index.html" title="Home Page">Home</a></li>
+			<li><a href="./reservations.html" title="Reservations">Reservations</a></li>
+			<li><a href="./menu.html" title="Menu Page">Menu</a></li>
+			<li class="current"><a href="./contact.html" title="Contact Us">Contact Us</a></li>
+		</ul>
+	</section>
+</header>
+<body>
+	      <!-- Calls background image to cover body of content -->
 <section id="contactBG">
 
 <section id="contacttop">
 	<div class="containerbox">
 		<section id="contactus">
+			<!-- Contact information -->
 			<div class="boxcontact">
 				<h2>CONTACT US</h2>
 				<p>Address: 1 Island Street, Kerikeri, Bay of Islands</p>
@@ -43,6 +51,7 @@
 		</section>
 
 			<div class="box">
+				<!-- Table for Restaurant Hours -->
 				<table id="hours">
 					<h2>OPENING HOURS</h2>
 					<tr>
@@ -84,19 +93,20 @@
 
 	<section id="contacttop">
 		<div class="containerbox">
+				<!-- iFrame containing Google Map for location -->
 			<section id="map">
 				<div class="boxcontact">
 			<h2>WHERE TO FIND US</h2>
-			<h3>We can be found in Kerikeri near the Waipapa Landing boat ramp (if you're in the water you've gone too far!)</h3>
-			<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d52155.2824869121!2d173.9575058!3d-35.2138125!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1660032956090!5m2!1sen!2snz" loading="lazy" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<h3>We can be found in Kerikeri near the Waipapa Landing boat ramp (if you're in the water you've gone too far!)</h3>
+				<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d52155.2824869121!2d173.9575058!3d-35.2138125!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1660032956090!5m2!1sen!2snz" loading="lazy" width="800" height="500" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 			</section>
-
+				<!-- iFrame containing Google Calendar -->
 			<section id="calendar">
 				<div class="boxcontact">
 					<h2>PLAN YOUR NEXT MEAL</h2>
-		<h3>Here's a calendar to help you decide when you want to come see us next! Then jump to the <a href="./reservations.html" title="booking page">booking page</a> to reserve a table.</h3>
-		<iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Pacific%2FAuckland&showPrint=0&hl=en_GB&src=N3RzbWM4ZWRtdGFmZmtwcjEydWgxNWlocmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23E67C73"  loading="lazy" width="800" height="500" frameborder="0" scrolling="no"></iframe>
+					<h3>Here's a calendar to help you decide when you want to come see us next! Then jump to the <a href="./reservations.html" title="booking page" style="color:white;">booking page</a> to reserve a table.</h3>
+					<iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Pacific%2FAuckland&showPrint=0&hl=en_GB&src=N3RzbWM4ZWRtdGFmZmtwcjEydWgxNWlocmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23E67C73"  loading="lazy" width="800" height="500" frameborder="0" scrolling="no"></iframe>
 				</div>	
 			</section>
 		</div>	
@@ -105,6 +115,7 @@
 </section>
 
 </body>
+        <!-- Footer Information -->
 <footer>
 	<div class="container">
 		<h2>Open Wednesday to Sunday from 5pm</h2>

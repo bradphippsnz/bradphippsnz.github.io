@@ -1,45 +1,47 @@
+        <!-- Declaring HTML5 -->
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="Delicious kai in the Bay of Islands">
-		<meta name="keywords" content="Haukai Restaurant, food, kai, Bay of Islands, New Zealand">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet"> 
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="If you want to book a table at the Haukai Restaurant, please fill out the form. We'll get back to you as soon as we can">
+	<meta name="keywords" content="Haukai Restaurant, food, kai, Bay of Islands, New Zealand, reservations, book a table">
+	    <!-- Web Font Information -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet"> 
 	<title>Haukai Restaurant | Book a Table</title>
-		<link rel="stylesheet" href="./css/style.css">
-	</head>
+		<!-- CSS Stylesheet -->
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+        <!-- Header Information -->
+<header>
+	<section class="top-nav">
+		<div>
+		<p>THE HAUKAI RESTAURANT</p>
+		</div>
+		<!-- Top Nav Menu -->
+		<input id="menu-toggle" type="checkbox">
+		<label class="menu-button-container" for="menu-toggle">
+		<div class="menu-button"></div>
+	    </label>
+		<ul class="menu">
+			<!-- class current indicates what page the user is on -->
+			<li><a href="index.html" title="Home Page">Home</a></li>
+			<li class="current"><a href="./reservations.html" title="Reservations">Reservations</a></li>
+			<li><a href="./menu.html" title="Menu Page">Menu</a></li>
+			<li><a href="./contact.html" title="Contact Us">Contact Us</a></li>
+		</ul>
+	</section>
+</header>
 
-	<header>
-		<section class="top-nav">
-			<div>
-			<p>THE HAUKAI RESTAURANT</p>
-			</div>
-			<input id="menu-toggle" type="checkbox" />
-			<label class="menu-button-container" for="menu-toggle">
-			<div class="menu-button"></div>
-		  </label>
-			<ul class="menu">
-				<li><a href="index.html" title="Home Page">Home</a></li>
-				<li class="current"><a href="./reservations.html" title="Reservations">Reservations</a></li>
-				<li><a href="./menu.html" title="Menu Page">Menu</a></li>
-				<li><a href="./contact.html" title="Contact Us">Contact Us</a></li>
-			</ul>
-		  </section>
-	</header>
-
-	<body> 
-	
-	<section id="reservationBG">
-		
+<body> 
+	<!-- iFrame containing Google Form for table booking -->
 	<section id="reservation">
 		<p align="center"><iframe id="booking" src="https://docs.google.com/forms/d/e/1FAIpQLSfPRUnEggIsCrUoYnHI1rDFDIxydIzfvjJWkgVe4wj8NeLT5w/viewform?embedded=true" loading="lazy" width="800px" height="1200px" margin-top="-100px" frameborder="0" marginheight="0" marginwidth="0" >Loading…</iframe></p>
 	</section>
-</section>
 </body>
-	
+	        <!-- Footer Information -->
 <footer>
 	<div class="container">
 		<h2>Open Wednesday to Sunday from 5pm</h2>

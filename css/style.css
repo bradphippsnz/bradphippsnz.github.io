@@ -21,6 +21,8 @@ h2 {
   box-sizing: border-box;
 }
 
+/* top nav menu */
+
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -50,6 +52,47 @@ h2 {
   color:#6a0d0d;
 }
 
+/* Home page Settings */
+
+#showcase{
+  margin-top:80px;
+  min-height:1200px;
+  max-width: 100%;
+	background:url('../img/main_restaurant.jpg');
+	background-repeat:no-repeat 0 -300px;
+	background-size: cover;
+  background-position: 50% 50%;
+	text-align:center;
+	color:#ffffff;
+}
+
+#showcase h2{
+	margin-top:100px;
+	font-size:50px;
+	margin-bottom:10px;
+}
+
+#showcase h3{
+	margin-top:100px;
+	font-size:40px;
+	margin-bottom:10px;
+}
+
+#showcase p{
+	font-size:30px;
+}
+
+#showcase h4{
+	font-size:30px;
+  margin-bottom:150px;
+}
+
+#opening h2{
+	text-align:center;
+}
+
+/* Generic code */
+
 .container{
 	max-width:80%;
 	margin:auto;
@@ -69,6 +112,18 @@ iframe{
 
 /* Contact us */
 
+#contactBG{
+  margin-top:80px;
+  min-height:1200px;
+  max-width: 100%;
+	background:url('../img/main_contact.jpg');
+	background-repeat:no-repeat 0 -300px;
+	background-size: cover;
+  background-position: 50% 50%;
+	text-align:center;
+	color:#ffffff;
+}
+
 section#contacttop{
   align-content:center;
   justify-content: center;
@@ -79,16 +134,6 @@ section#contacttop{
 table#hours{
   align-items: left;
 width:450px;
-}
-
-iframe#map{
-	align-content:center;
-  max-width:80%
-}
-
-iframe#calendar{
-	align-content:center;
-  max-width:80%
 }
 
 #contacttop h2{
@@ -108,6 +153,14 @@ iframe#calendar{
 #calendar h2{
   color: #ffffff;
 	font-size:25px;
+	margin-bottom:20px;
+	text-align:center;
+  text-decoration:none;
+}
+
+#calendar h3{
+  color: #ffffff;
+	font-size:20px;
 	margin-bottom:20px;
 	text-align:center;
   text-decoration:none;
@@ -142,28 +195,21 @@ section#calendar{
 
 }
 
-/* Reservations */
+/* iFrames */ 
 
-iframe#booking{
+iframe#map{
 	align-content:center;
-  min-height:100%;
+  max-width:80%
 }
 
-/* background images */
-
-#showcase{
-  margin-top:80px;
-  min-height:1200px;
-  max-width: 100%;
-	background:url('../img/main_restaurant.jpg');
-	background-repeat:no-repeat 0 -300px;
-	background-size: cover;
-  background-position: 50% 50%;
-	text-align:center;
-	color:#ffffff;
+iframe#calendar{
+	align-content:center;
+  max-width:80%
 }
 
-#reservationBG{
+/* Reservations page */
+
+#reservation{
   margin-top:80px;
   min-height:1200px;
   max-width: 100%;
@@ -175,29 +221,12 @@ iframe#booking{
 	color:#ffffff;
 }
 
-#contactBG{
-  margin-top:80px;
-  min-height:1200px;
-  max-width: 100%;
-	background:url('../img/main_contact.jpg');
-	background-repeat:no-repeat 0 -300px;
-	background-size: cover;
-  background-position: 50% 50%;
-	text-align:center;
-	color:#ffffff;
+iframe#booking{
+	align-content:center;
+  min-height:100%;
 }
 
-#privacyBG{
-  margin-top:80px;
-  min-height:1200px;
-  max-width: 100%;
-	background:url('../img/main_privacy.jpg');
-	background-repeat:no-repeat 0 -300px;
-	background-size: cover;
-  background-position: 50% 50%;
-	text-align:center;
-	color:#ffffff;
-}
+/* Box information */ 
 
 .containerbox{
 	max-width:80%;
@@ -248,58 +277,6 @@ img{
 
 #boxes .box img{
 	width:200px;
-}
-
-/* Privacy Page Settings */
-
-#privacy h2{
-	margin-top:100px;
-	font-size:30px;
-	font-weight:bold;
-	margin-bottom:20px;
-	text-align:center;
-}
-
-#privacy h3{
-	margin-top:50px;
-	font-size:25px;
-	margin-bottom:20px;
-	text-align:center;
-}
-
-#privacy h4{
-	margin-top:50px;
-	font-size:25px;
-	margin-bottom:20px;
-	text-align:center;
-  margin-bottom:150px;
-}
-
-/* Home Page Settings */
-
-#showcase h2{
-	margin-top:100px;
-	font-size:50px;
-	margin-bottom:10px;
-}
-
-#showcase h3{
-	margin-top:100px;
-	font-size:40px;
-	margin-bottom:10px;
-}
-
-#showcase p{
-	font-size:30px;
-}
-
-#showcase h4{
-	font-size:30px;
-  margin-bottom:150px;
-}
-
-#opening h2{
-	text-align:center;
 }
 
 /* Haukai Menu Settings */
@@ -357,7 +334,46 @@ span.cost {
 	text-align:center;
 }
 
+/* Privacy Page Settings */
+
+#privacy{
+  margin-top:80px;
+  min-height:1200px;
+  max-width: 100%;
+	background:url('../img/main_privacy.jpg');
+	background-repeat:no-repeat 0 -300px;
+	background-size: cover;
+  background-position: 50% 50%;
+	text-align:center;
+	color:#ffffff;
+}
+
+#privacy h2{
+	margin-top:100px;
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+#privacy h3{
+	margin-top:50px;
+	font-size:25px;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+#privacy h4{
+	margin-top:50px;
+	font-size:25px;
+	margin-bottom:20px;
+	text-align:center;
+  margin-bottom:150px;
+}
+
+
 /* Hamburger Menu Settings */
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -468,6 +484,8 @@ span.cost {
     border-bottom: 1px solid #444;
   }
 }
+
+/* Footer settings */ 
 
 footer{
   bottom:0;
