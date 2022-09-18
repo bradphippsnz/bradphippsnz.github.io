@@ -1,7 +1,7 @@
-AuthType private
+AuthType Basic
 
 
-AuthName "Restricted access"
+AuthName "private"
 
 
 AuthUserFile “/bradphippsnz/bradphippsnz.github.io/.htpasswd"
