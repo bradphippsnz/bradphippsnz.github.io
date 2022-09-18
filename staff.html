@@ -1,0 +1,104 @@
+        <!-- Declaring HTML5 -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="If you want to book a table at the Haukai Restaurant, please fill out the form. We'll get back to you as soon as we can">
+	<meta name="keywords" content="Haukai Restaurant, food, kai, Bay of Islands, New Zealand, reservations, book a table">
+	    <!-- Web Font Information -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet"> 
+	<title>Haukai Restaurant | Staff Section</title>
+		<!-- CSS Stylesheet -->
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+        <!-- Header Information -->
+<header>
+	<section class="top-nav">
+		<div>
+		<p>THE HAUKAI RESTAURANT</p>
+		</div>
+		<!-- Top Nav Menu -->
+		<input id="menu-toggle" type="checkbox">
+		<label class="menu-button-container" for="menu-toggle">
+		<div class="menu-button"></div>
+	    </label>
+		<ul class="menu">
+			<!-- class current indicates what page the user is on -->
+			<li class="current"><a href="index.html" title="Home Page">Return to Home Page</a></li>
+		</ul>
+	</section>
+</header>
+
+<body> 
+	<section id="staffroster">
+			<!-- iFrame containing Google Calendar for rosters -->
+
+				<h4>*** THIS IS A STAFF ONLY PAGE. NO UNAUTHORISED ADMITTANCE. NO PASSWORD SHARING ***</h4>
+				<h1>ROSTER</h1>
+				<h2>Roster for all staff. Please advise management ahead of time if you require changes to your shift.</h2>
+				<p>Please message <u><b>management@haukairestaurant.co.nz</b></u> for changes or concerns.</p>
+
+			<section id="roster">
+				<iframe id="roster" src="https://calendar.google.com/calendar/embed?height=800&wkst=2&bgcolor=%23ffffff&ctz=Pacific%2FAuckland&showNav=1&showPrint=0&showCalendars=0&showTitle=0&hl=en_GB&src=YWNtZXRrNG9wa2hucjgyOXA3Ym1rcDY3dDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23616161" style="border-width:0" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
+			</section>	
+			<h1>STAFF DETAILS</h1>
+			<h2>Do not take or use information in the below table without permission</h2>
+		<div class="containerbox">
+			<!-- Table for Restaurant Hours -->
+				<table id="staff">
+					<tr>
+						<th>NAME</th>
+						<th>PHONE</th>
+					</tr>
+					<tr>
+						<td>Chris G</td>
+						<td>025 111 1111</td>
+					</tr>
+					<tr>
+						<td>Andrew J</td>
+						<td>025 222 2222</td>
+					</tr>
+					<tr>
+						<td>Maria C</td>
+						<td>025 333 3333</td>
+					</tr>
+					<tr>
+						<td>France C</td>
+						<td>025 444 4444</td>
+					</tr>
+					<tr>
+						<td>David B</td>
+						<td>025 555 5555</td>
+					</tr>
+					<tr>
+						<td>Marcus G</td>
+						<td>025 666 6666</td>
+					</tr>
+					<tr>
+						<td>Patricia D</td>
+						<td>025 777 7777</td>
+					</tr>
+					<tr>
+						<td>Steve S</td>
+						<td>025 888 8888</td>
+					</tr>
+					<tr>
+						<td>Kim S</td>
+						<td>025 999 9999</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+
+	</body>
+	        <!-- Footer Information -->
+<footer>
+	<div class="container">
+		<h2>Open Wednesday to Sunday from 5pm</h2>
+		<h3>View our  <a href="./privacystatement.html" title="Privacy Statement">privacy statement</a> | The Haukai Restaurant, Copyright &copy;2022</h3>
+	</div>
+</footer>
+</html>
