@@ -1,0 +1,10 @@
+AuthType Basic
+
+
+AuthName "Restricted access"
+
+
+AuthUserFile “/bradphippsnz/bradphippsnz.github.io/.htpasswd"
+
+
+Require valid-user
