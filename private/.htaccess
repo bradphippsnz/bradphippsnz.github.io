@@ -1,7 +1,7 @@
 AuthType Basic
 
 
-AuthName "private"
+AuthName "Staff Access Only"
 
 
 AuthUserFile “/bradphippsnz/bradphippsnz.github.io/.htpasswd"
