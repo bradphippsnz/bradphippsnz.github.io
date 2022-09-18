@@ -145,7 +145,6 @@ iframe{
   margin-top: 100px;
 	padding:10px;
   display:flex
-
 }
 
 iframe#roster{
@@ -156,8 +155,10 @@ iframe#roster{
 
 table#staff{
 align-items: left;
+font-size:18px;
+font-weight: bold;
 width:450px;
-background-color: #ffffff;
+background-color: #dddddd;
 margin-bottom: 150px;
 }
 
