@@ -4,7 +4,7 @@ AuthType Basic
 AuthName "Staff Access Only"
 
 
-AuthUserFile “/bradphippsnz/bradphippsnz.github.io/.htpasswd"
+AuthUserFile “/bradphippsnz/bradphippsnz.github.io/.htpasswds"
 
 
 Require valid-user
